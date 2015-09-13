@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% if text %}
+<div class=container">
+    {{ text }}
+</div>
+{% else %}
+
+<div class="container">
+    <strong> There doesn't seem to be a text for that node!</strong>
+</div>
+{% endif %}
+
+

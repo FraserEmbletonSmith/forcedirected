@@ -1,0 +1,35 @@
+ <style>
+
+        label {
+            display: block;
+            padding-left: 15px;
+            text-indent: -15px;
+        }
+
+        .tooltip {
+            top:50px;
+            left: 470px;
+            position: absolute;
+            text-align: center;
+            width: 60px;
+            height: 28px;
+            padding: 2px;
+            font: 20px sans-serif;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+
+        }
+
+        .node {
+            cursor: pointer;
+            stroke: #3182bd;
+            stroke-width: 1.5px;
+        }
+        .link {
+            fill: none;
+            stroke: #9ecae1;
+            stroke-width: 1.5px;
+        }
+
+    </style>
